@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+body {
+	font-family: "Microsoft sans serif", Calibri, sans-serif;
+	background-color: #999999;
+	color: #000;
+	max-width: 1000px;
+	align: center;
+margin:10px auto;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+fieldset {
+	border: none;
+	margin: 1em 0;
+}
+
+fieldset legend {
+	font-size: large;
+	padding: 0 0 1em 0;
+	color: #F29400;
+	font-weight: bold;
+}
+
+form .feld {
+	display: table-row;
+}
+
+form .feld label {
+	width: 150px;
+	display: table-cell;
+	padding: 5px 10px;
+}
+
+form .feld input {
+	display: table-cell;
+}
+
+#navigation {
+	background-color: #003366;
+	text-align: right;
+	height: 28px;
+}
+
+#navigation ul {
+	float: right;
+	margin: 5px 0;
+}
+
+#navigation ul li {
+	float: left;
+	border-left: 1px solid #dddddd;
+	padding: 0 5px 0 10px;
+}
+
+#navigation a {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+#navigation a:HOVER {
+	text-decoration: underline;
+}
+
+#page {
+	width: 100%;
+	//margin:10px auto;
+}
+
+#wrapper {
+	//margin: 10px 15px;
+	//margin-top: 5px;
+	
+}
+
+#main {
+	border: #333333 solid 1px;
+	border-top-style: none;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+#content {
+	padding: 20px;
+}
+
+#content h2 {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 5px 0 15px 0;
+	color: #F29400;
+}
+
+#content p {
+	margin: 5px 0;
+}
+
+#header {
+	background: url("../img/dots.png");
+	height: 80px;
+	border: 1px solid #003366;
+	width: 100%
+}
+
+#header > #header_left {
+	margin-left: 25px;
+	margin-top: 6px;
+	float: left;
+}
+
+#header  #header_right {
+	float:right;
+}
+
+#footer {
+	text-align: right;
+	font-size: 0.8em;
+	padding-top: 1em;
+}
+
+.gemverd {
+	margin-left: 2em;
+}
+
+label {
+	padding-left: 10px;
+}
+
+#cards {
+	margin-left: 238px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 45px; /* 47? */
+	padding-right: 45px; /* 49? */
+}
+
+#cards ul {
+	display: inline-block;
+}
+
+#cards ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	text-align: center;
+	background: url("../img/card_background.png") no-repeat;
+}
+
+#cards ul li a {
+	display: table-cell;
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+}
+
+#stats {
+	background-color: #003366;
+	float: left;
+	width: 218px;
+	padding: 10px;
+}
+
+#stats a {
+	color: white;
+	vertical-align: bottom;
+}
+
+th {
+	color: #F29400;
+	font-weight: bold;
+	text-align: center;
+}
+
+#stats table {
+	width: 100%;
+	color: #DDDDDD;
+	border-spacing: 0 5px;
+	border-collapse: separate;
+	margin: 5px 0 15px;
+	font-size: 0.9em;
+}
+
+#stats ul {
+	list-style-type: disc;
+	color: white;
+	padding-left: 25px;
+}
+
+#stats ul li a {
+	text-decoration: none;
+}
+
+.data {
+	text-align: center;
+	color: #DDDDDD;
+}
+
+.legend {
+	color: #F29400;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3 {
+	color: #F29400;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 5px 0;
+}
+
+hr.solid_clear {
+	clear: both;
+	height: .1px;
+	border: none;
+	visibility: hidden;
+	margin: 0;
+}
+
+#cards ul li img {
+	width: 80px;
+	height: 48px;
+	vertical-align: bottom; /* center?*/
+}

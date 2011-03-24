@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#menu li {
+	list-style: inside;
+}
+
+#cards ul li, #cards ul {
+	display: inline;
+	_height: 0;
+}
+
+#cards ul li a {
+	display: block;
+}
