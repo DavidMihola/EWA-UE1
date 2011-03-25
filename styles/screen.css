@@ -6,7 +6,7 @@ body {
 	color: #000;
 	max-width: 1000px;
 	align: center;
-margin:10px auto;
+        margin:10px auto;
 }
 
 .hidden {
@@ -37,6 +37,7 @@ form .feld label {
 }
 
 form .feld input {
+	width: 200px;
 	display: table-cell;
 }
 
