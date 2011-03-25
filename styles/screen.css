@@ -180,7 +180,7 @@ th {
 	color: #DDDDDD;
 	border-spacing: 0 5px;
 	border-collapse: separate;
-	margin: 5px 0 15px;
+	margin: 5px 5px 15px;
 	font-size: 0.8em;
 }
 
@@ -209,6 +209,14 @@ th {
 	color: #F29400;
 	font-weight: bold;
 	text-align: left;
+}
+
+#remaining .legend {
+       width: 9em;
+}
+
+#remaining .data {
+       text-align: left;
 }
 
 h3 {
