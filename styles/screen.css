@@ -4,9 +4,9 @@ body {
 	font-family: "Microsoft sans serif", Calibri, sans-serif;
 	background-color: #999999;
 	color: #000;
-	max-width: 1000px;
-	align: center;
-        margin:10px auto;
+	max-width: 896px; /*1000px;*/
+	align: center; /* kennen firefox und gedit anscheinend nicht */
+	margin: 10px auto;
 }
 
 .hidden {
@@ -69,17 +69,16 @@ form .feld input {
 
 #page {
 	width: 100%;
-	//margin:10px auto;
+	/*margin:10px auto;*/
 }
 
 #wrapper {
-	//margin: 10px 15px;
-	//margin-top: 5px;
-	
+	/*margin: 10px 15px;
+	margin-top: 5px;*/
 }
 
 #main {
-	border: #333333 solid 1px;
+	border: #003366 solid 1px;
 	border-top-style: none;
 	background-color: #FFFFFF;
 	overflow: hidden;
@@ -104,16 +103,16 @@ form .feld input {
 	background: url("../img/dots.png");
 	height: 80px;
 	border: 1px solid #003366;
-	width: 100%
+	/*width: 100%;*/
 }
 
 #header > #header_left {
 	margin-left: 25px;
-	margin-top: 6px;
+	margin-top: 5px;
 	float: left;
 }
 
-#header  #header_right {
+#header #header_right {
 	float:right;
 }
 
@@ -133,10 +132,10 @@ label {
 
 #cards {
 	margin-left: 238px;
-	padding-top: 35px;
+	padding-top: 21px;
 	padding-bottom: 35px;
-	padding-left: 45px; /* 47? */
-	padding-right: 45px; /* 49? */
+	padding-left: 17px; /* 47? */
+	padding-right: 17px; /* 49? */
 }
 
 #cards ul {
@@ -161,7 +160,7 @@ label {
 #stats {
 	background-color: #003366;
 	float: left;
-	width: 218px;
+	width: 198px; /*218px;*/
 	padding: 10px;
 }
 
