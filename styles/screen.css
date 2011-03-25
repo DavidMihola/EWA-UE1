@@ -159,29 +159,40 @@ label {
 
 #stats {
 	background-color: #003366;
+	color: white; /*#DDDDDD;*/
 	float: left;
 	width: 198px; /*218px;*/
 	padding: 10px;
 }
 
-#stats a {
-	color: white;
-	vertical-align: bottom;
-}
-
-th {
-	color: #F29400;
-	font-weight: bold;
-	text-align: center;
-}
-
 #stats table {
 	width: 100%;
-	color: #DDDDDD;
 	border-spacing: 0 5px;
 	border-collapse: separate;
 	margin: 5px 5px 15px;
 	font-size: 0.8em;
+	text-align: center;
+}
+
+#stats table th {
+	color: #F29400;
+	font-weight: bold;
+}
+
+#stats table th.left {
+        text-align: left;
+}
+
+#remaining {
+        margin: 10px 5px 15px;        	
+     	font-size: 0.8em;
+}
+
+#remaining span.legend {
+	color: #F29400;
+	font-weight: bold;
+        width: 9em;
+        margin-right: 5px;
 }
 
 #stats ul {
@@ -196,28 +207,20 @@ th {
 	font-size: 0.8em;
 }
 
+/*
+#stats a {
+	color: white;
+	vertical-align: bottom;
+}
+*/
+
+
 #stats ul li a {
+        color: white;
+	vertical-align: bottom;
 	text-decoration: none;
 }
 
-.data {
-	text-align: center;
-	color: #DDDDDD;
-}
-
-.legend {
-	color: #F29400;
-	font-weight: bold;
-	text-align: left;
-}
-
-#remaining .legend {
-       width: 9em;
-}
-
-#remaining .data {
-       text-align: left;
-}
 
 h3 {
 	color: #F29400;
