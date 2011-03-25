@@ -183,16 +183,12 @@ label {
         text-align: left;
 }
 
-#remaining {
-        margin: 10px 5px 15px;        	
-     	font-size: 0.8em;
+#remaining tr th.left {
+        width: 10em;
 }
 
-#remaining span.legend {
-	color: #F29400;
-	font-weight: bold;
-        width: 9em;
-        margin-right: 5px;
+#remaining tr td {
+        text-align: left;
 }
 
 #stats ul {
