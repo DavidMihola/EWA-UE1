@@ -5,7 +5,7 @@ body {
 	background-color: #999999;
 	color: #000;
 	max-width: 896px; /*1000px;*/
-	align: center; /* kennen firefox und gedit anscheinend nicht */
+	/*align: center; kennen firefox und gedit anscheinend nicht, der W3C CSS Validator auch nicht!*/
 	margin: 10px auto;
 }
 
