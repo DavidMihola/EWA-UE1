@@ -112,7 +112,7 @@ form .feld input {
 	float: left;
 }
 
-#header #header_right {
+#header > #header_right {
 	float:right;
 }
 
@@ -165,7 +165,7 @@ label {
 	padding: 10px;
 }
 
-#stats table {
+#stats table, #stats span {
 	width: 100%;
 	border-spacing: 0 5px;
 	border-collapse: separate;
@@ -175,21 +175,25 @@ label {
 }
 
 #stats table th {
+        text-align: left;
 	color: #F29400;
 	font-weight: bold;
 }
 
-#stats table th.left {
-        text-align: left;
+#stats table tr:first-child th {
+	text-align: center;
 }
 
-#remaining tr th.left {
+#remaining span.label {
         width: 10em;
+	text-align: left;
+	color: #F29400;
+	font-weight: bold;
 }
-
+/*
 #remaining tr td {
         text-align: left;
-}
+}*/
 
 #stats ul {
 	list-style-type: disc;
