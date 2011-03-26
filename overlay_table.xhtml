@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
 <meta name="description" content="EWA Memory Spiel" />
 <meta name="author" content="Christian Zwettler, David Mihola, Florian Mihola" />
 <meta name="keywords" content="EWA, Entwicklung von Webanwendungen, Memory, Spiel, Karten, aufdecken" />
 
-<script src="overlay.js" type="text/javascript" />
-
 <title>EWA Memory Spiel</title>
 <link href="styles/reset.css" rel="stylesheet" type="text/css"
 	media="screen" />
 <link href="styles/screen.css" rel="stylesheet" type="text/css"
 	media="screen" />
+
+<script src="overlay.js" type="text/javascript" />
 
 <!--[if lt IE 8]>
 <link href="styles/ie-screen.css" rel="stylesheet" type="text/css"
@@ -41,35 +41,44 @@
 			<div id="stats">
 				<h2 class="hidden">Informationen zum Spiel</h2>
 				<h3>Spielstand</h3>
-				<table summary="Spielstand im aktuellen Spiel">
+				<table title="Spielstand im aktuellen Spiel"
+				       summary="Spielstand im aktuellen Spiel">
 					<tr>
 						<th></th>
 						<th>Du</th>
 						<th>Gegner</th>
 					</tr>
 					<tr>
-						<td class="legend">Paare</td>
-						<td class="data">1</td>
-						<td class="data">0</td>
+						<th class="left">Paare</th>
+						<td>1</td>
+						<td>0</td>
 					</tr>
 					<tr>
-						<td class="legend">Versuche</td>
-						<td class="data">3</td>
-						<td class="data">2</td>
+						<th class="left">Versuche</th>
+						<td>3</td>
+						<td>2</td>
 					</tr>
 					<tr>
-						<td class="legend">Zeit</td>
-						<td class="data">0:34</td>
-						<td class="data">0:50</td>
+						<th class="left">Zeit</th>
+						<td>0:34</td>
+						<td>0:50</td>
 					</tr>
 				</table>
 				<h3>Spielinformationen</h3>
-				<table>
+				<table id="remaining"
+				       title="Anzahl der restlichen Paare"
+				       summary="Anzahl der restlichen Paare">
 					<tr>
-						<td class="legend">Restliche Paare</td>
+						<th class="left">Restliche Paare</th>
 						<td>14</td>
 					</tr>
 				</table>
+
+<!--				<div id="remaining">
+						<span class="legend">Restliche Paare</span>
+						<span class="data">14</span>
+				</div>
+-->
 				<h3>Highscore</h3>
 				<ul>
 					<li><a href="?petra">Petra: 165 Punkte</a></li>
@@ -79,7 +88,7 @@
 				</ul>
 			</div>
 			<div id="cards">
-<ul class="thumbwrap"><!--
+<ul><!--
  --><li><a title="klicken um aufzudecken" href="?karte=1"><span class="hidden">Karte 1</span></a></li><!--
  --><li><a title="klicken um aufzudecken" href="?karte=2"><span class="hidden">Karte 2</span></a></li><!--
  --><li><a title="klicken um aufzudecken" href="?karte=3"><span class="hidden">Karte 3</span></a></li><!--
@@ -109,7 +118,8 @@
  --><li><a title="klicken um aufzudecken" href="?karte=27"><span class="hidden">Karte 27</span></a></li><!--
  --><li><a title="klicken um aufzudecken" href="?karte=28"><span class="hidden">Karte 28</span></a></li><!--
  --><li><a title="klicken um aufzudecken" href="?karte=29"><span class="hidden">Karte 29</span></a></li><!--
- --><li><a title="klicken um aufzudecken" href="?karte=30"><span class="hidden">Karte 30</span></a></li></ul>
+ --><li><a title="klicken um aufzudecken" href="?karte=30"><span class="hidden">Karte 30</span></a></li><!--
+ --></ul>
 			</div>
 			<hr class="solid_clear" />
 		</div>
