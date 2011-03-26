@@ -159,40 +159,55 @@ label {
 
 #stats {
 	background-color: #003366;
-	color: white; /*#DDDDDD;*/
+	color: white;
 	float: left;
-	width: 198px; /*218px;*/
+	width: 198px;
 	padding: 10px;
 }
 
-#stats table, #stats span {
+#stats table/*, #divremaining*/ {
+	margin: 15px 0px 20px 5px;
+	font-size: 0.8em;
+}
+
+#stats table {
 	width: 100%;
 	border-spacing: 0 5px;
 	border-collapse: separate;
-	margin: 5px 5px 15px;
-	font-size: 0.8em;
 	text-align: center;
 }
 
 #stats table th {
+        color: #F29400;
         text-align: left;
-	color: #F29400;
 	font-weight: bold;
 }
 
-#stats table tr:first-child th {
-	text-align: center;
+#stats table thead th {
+        text-align: center
 }
 
-#remaining span.label {
+#stats table tbody th {
+        text-align: left
+}
+
+/*#stats table tr:first-child th {
+	text-align: center;
+}*/
+
+#remaining th {
         width: 10em;
+}
+
+#remaining td {
+        text-align: left;
+}
+
+/*#divremaining span.label {
+	margin-right: 5px;
 	text-align: left;
 	color: #F29400;
 	font-weight: bold;
-}
-/*
-#remaining tr td {
-        text-align: left;
 }*/
 
 #stats ul {

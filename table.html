@@ -39,45 +39,52 @@
 			<div id="stats">
 				<h2 class="hidden">Informationen zum Spiel</h2>
 				<h3>Spielstand</h3>
-				<table title="Spielstand im aktuellen Spiel"
+				<table id="current"
+				       title="Spielstand im aktuellen Spiel"
 				       summary="Spielstand im aktuellen Spiel">
+					<thead>
 					<tr>
 						<th></th>
 						<th>Du</th>
 						<th>Gegner</th>
 					</tr>
+				        </thead>
+					<tbody>
 					<tr>
-						<th class="left">Paare</th>
+						<th>Paare</th>
 						<td>1</td>
 						<td>0</td>
 					</tr>
 					<tr>
-						<th class="left">Versuche</th>
+						<th>Versuche</th>
 						<td>3</td>
 						<td>2</td>
 					</tr>
 					<tr>
-						<th class="left">Zeit</th>
+						<th>Zeit</th>
 						<td>0:34</td>
 						<td>0:50</td>
 					</tr>
+					</tbody>
 				</table>
 				<h3>Spielinformationen</h3>
-<!--				<table id="remaining"
+  				<table id="remaining"
 				       title="Anzahl der restlichen Paare"
 				       summary="Anzahl der restlichen Paare">
+					<tbody>
 					<tr>
 						<th class="left">Restliche Paare</th>
 						<td>14</td>
 					</tr>
+					</tbody>
 				</table>
--->
 
-				<div id="remaining">
+<!--
+				<div id="divremaining">
 						<span class="label">Restliche Paare</span>
 						<span class="data">14</span>
 				</div>
-
+-->
 				<h3>Highscore</h3>
 				<ul>
 					<li><a href="?petra">Petra: 165 Punkte</a></li>
