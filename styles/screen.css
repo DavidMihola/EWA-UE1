@@ -4,8 +4,7 @@ body {
 	font-family: "Microsoft sans serif", Calibri, sans-serif;
 	background-color: #999999;
 	color: #000;
-	max-width: 896px; /*1000px;*/
-	/*align: center; kennen firefox und gedit anscheinend nicht, der W3C CSS Validator auch nicht!*/
+	max-width: 896px; 
 	margin: 10px auto;
 }
 
@@ -69,12 +68,11 @@ form .feld input {
 
 #page {
 	width: 100%;
-	/*margin:10px auto;*/
+	
 }
 
 #wrapper {
-	/*margin: 10px 15px;
-	margin-top: 5px;*/
+	
 }
 
 #main {
@@ -103,7 +101,7 @@ form .feld input {
 	background: url("../img/dots.png");
 	height: 80px;
 	border: 1px solid #003366;
-	/*width: 100%;*/
+	
 }
 
 #header > #header_left {
@@ -134,8 +132,8 @@ label {
 	margin-left: 238px;
 	padding-top: 21px;
 	padding-bottom: 35px;
-	padding-left: 17px; /* 47? */
-	padding-right: 17px; /* 49? */
+	padding-left: 17px;
+	padding-right: 17px;
 }
 
 #cards ul {
@@ -159,9 +157,9 @@ label {
 
 #stats {
 	background-color: #003366;
-	color: white; /*#DDDDDD;*/
+	color: white;
 	float: left;
-	width: 198px; /*218px;*/
+	width: 198px;
 	padding: 10px;
 }
 
@@ -240,5 +238,5 @@ hr.solid_clear {
 #cards ul li img {
 	width: 80px;
 	height: 48px;
-	vertical-align: bottom; /* center?*/
+	vertical-align: bottom;
 }
